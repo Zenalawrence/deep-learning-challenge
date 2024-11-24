@@ -34,14 +34,14 @@ Python
     - NAME
 
 The final data set is shown below:
-![Alphabet Soup Dataset.](https://github.com/Zenalawrence/xxx)
+![Alphabet Soup Dataset.](https://github.com/Zenalawrence/deep-learning-challenge/blob/main/Readme_Images/1_alphabet_dataset.png)
 
 ## Compiling, Training, and Evaluating the Model
 
 ### Attempt 1
 
 The first model consisted of 2 hidden layers with 80 and 30 neurons respectively with 100 epochs.  The input later was the length of the x_trained_scaled, and the subsequent layers being halved each layer.  The activation function used was ReLU because of the non-linear nature of the data.  The output layer utilized the Sigmoid activation function to handle the binary classification problem.
-![Model Training.](https://github.com/Zenalawrence/xxx)
+![Model Training.](https://github.com/Zenalawrence/deep-learning-challenge/blob/main/Readme_Images/2_model_training1.png)
 
 This model resulted in an accuracy score: 0.7308 (73.1%) and loss: 0.5591 (55.8%).  
 
@@ -49,7 +49,7 @@ This model resulted in an accuracy score: 0.7308 (73.1%) and loss: 0.5591 (55.8%
 
 I increased the complexity to optimize this model. An additional hidden layer was added to allow the model to learn more complex representations.  This additional layer, was halved from the previous layer and kept 100 epochs.  The results were not that different from the initial attempt. 
 
-![Model Training2.](https://github.com/Zenalawrence/xxx)
+![Model Training2.](https://github.com/Zenalawrence/deep-learning-challenge/blob/main/Readme_Images/3_model_training%202.png)
 
 This model resulted in an accuracy score: 0.7292 (72.9%) and loss: 0.5671 (56.7%).
 
@@ -57,7 +57,7 @@ This model resulted in an accuracy score: 0.7292 (72.9%) and loss: 0.5671 (56.7%
 
 The complexity was increased further to allow for deeper learning by adding more neurons to the model. The three Hidden layers contained, 150, 75 and 25 neurons respectively with 100 epochs. The results remained consistent to previous attempts.
 
-![Model Training2.](https://github.com/Zenalawrence/xxx)
+![Model Training2.](https://github.com/Zenalawrence/deep-learning-challenge/blob/main/Readme_Images/4_model_training3.png)
 
 This model resulted in an accuracy score: 0.7278 (72.8%) and loss: 0.5869 (58.7%).
 
